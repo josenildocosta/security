@@ -16,5 +16,5 @@ public class Usuario {
 	private Long id;
 	
 	@Column
-	private String name;
+	private String nome;
 }

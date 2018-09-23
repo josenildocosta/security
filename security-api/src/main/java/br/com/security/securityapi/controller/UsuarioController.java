@@ -36,7 +36,7 @@ public class UsuarioController {
 		return usuarioRepository.save(usuario);
 	}
 
-	@PutMapping("/usuario/{usuarioId}")
+	@GetMapping("/usuario/{usuarioId}")
 	public Usuario findByIdUsuario(@PathVariable Long usuarioId) {
 		return usuarioRepository.findById(usuarioId).get();
 	}
